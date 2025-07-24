@@ -617,6 +617,9 @@ footer .copyright{
     section.services .card-wrapper{
         grid-template-columns: repeat(2, 1fr);
     }
+    section.projects .card-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
     section.work .card-wrapper{
         grid-template-columns: repeat(2,1fr);
     }
@@ -659,6 +662,10 @@ footer .copyright{
         padding: 4rem 0;
     }
     section.services .card-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top:6rem;
+    }
+    section.projects .card-wrapper{
         grid-template-columns: repeat(1, 1fr);
         margin-top:6rem;
     }
